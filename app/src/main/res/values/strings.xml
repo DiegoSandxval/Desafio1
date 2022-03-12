@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Desafio1</string>
+    <string name="datos">escoja como desea ingresar</string>
+    <string name="titulo1">Ingrese el nombre, salario y el cargo de 3 empleados</string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="horas_trabajadas">Horas trabajadas</string>
+    <string name="puesto">Puesto</string>
+    <string name="empleado_1">Empleado 1</string>
+    <string name="impuesto_1">Impuesto 1</string>
+    <string name="sueldo_liquido1">Sueldo Liquido 1</string>
+    <string name="ver_sueldos">Ver Sueldos</string>
+    <string name="bono_1">Bono 1</string>
+    <string name="mejor">Mejor</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="peor">Peor</string>
+    <string name="more_300">Mas de $300</string>
+    <string name="empleado_2">Empleado 2</string>
+    <string name="impuesto_2">Impuesto 2</string>
+    <string name="sueldo_liquido_2">Sueldo Liquido 2</string>
+    <string name="bono_2">Bono 2</string>
+    <string name="sueldo_liquido_3">Sueldo liquido 3</string>
+    <string name="bono_3">Bono 3</string>
+    <string name="impuesto_3">Impuesto 3</string>
+    <string name="empleado_3">Empleado 3</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="tittle">Ingresar datos para ecuacion</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="menu">Menu</string>
+    <string name="ejercico_1">Ejercicio 1</string>
+    <string name="ejercicio_2">Ejercicio 2</string>
+    <string name="ejercicio_4">Ejercicio 4</string>
+    <string name="title_activity_ejerc1">Ejerc1Activity</string>
+    <string name="please">please set ur information</string>
+    <string name="set_your_username">set your username</string>
+    <string name="set_your_password">set your password</string>
+    <string name="signin">signin</string>
+    <string name="create_account">create account</string>
+    <string name="crear_cuenta_nueva">Crear cuenta nueva</string>
+    <string name="ingrese_su_correo_o_nombre_de_usuario">ingrese su correo o nombre de usuario</string>
+    <string name="ingrese_su_contrase_a">ingrese su contraseña</string>
+    <string name="crear_cuenta">crear cuenta</string>
+    <string name="ya_tengo_una_cuenta">ya tengo una cuenta</string>
+    <string name="c">C</string>
+    <string name="b">B</string>
+    <string name="a">A</string>
+    <string name="calcular">Calcular</string>
+    <string name="urna">please write all votes here</string>
+    <string name="numero1">candidate 1</string>
+    <string name="numero2">candidate 2</string>
+    <string name="numero3">candidate 3</string>
+    <string name="numero4">candidate 4</string>
+    <string name="button">calculate</string>
+    <string name="tittlee">Introduce votos con numeros del 1 al 4</string>
+    <string name="see">add vote</string>
+    <string name="run">Run</string>
+    <string name="enter_c">enter c:</string>
+    <string name="enter_b">enter b:</string>
+    <string name="enter_a">enter a:</string>
+    <string name="x1">x1=</string>
+    <string name="x2">x2=</string>
+</resources>

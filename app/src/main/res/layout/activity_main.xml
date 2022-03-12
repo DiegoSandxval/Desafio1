@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crear_cuenta_nueva"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:layout_marginBottom="30dp"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="@string/ingrese_su_correo_o_nombre_de_usuario" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="@string/ingrese_su_contrase_a"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:id="@+id/create"
+            android:backgroundTint="@color/details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/crear_cuenta"/>
+        <Button
+            android:id="@+id/loggin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/details"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/ya_tengo_una_cuenta"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

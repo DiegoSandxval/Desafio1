@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ejer3Activity"
+    android:background="@color/background">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:background="@color/details"
+            android:textStyle="bold"
+            android:text="@string/titulo1"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/namefull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:inputType="textPersonName"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:hint="@string/nombre" />
+        <EditText
+            android:id="@+id/hoursworked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:inputType="phone"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:hint="@string/horas_trabajadas" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/puesto"/>
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="155dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="@color/details"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:id="@+id/btnResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:backgroundTint="@color/details"
+            android:textColor="@color/white"
+            android:text="@string/ver_sueldos"/>
+
+        <TextView
+            android:id="@+id/best"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_margin="20dp"
+            android:text="@string/mejor" />
+
+        <TextView
+            android:id="@+id/worst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_margin="20dp"
+            android:text="@string/peor" />
+
+        <TextView
+            android:id="@+id/more300"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:layout_margin="20dp"
+            android:text="@string/more_300" />
+
+        <TextView
+            android:id="@+id/employe1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/empleado_1" />
+        <TextView
+            android:id="@+id/discount1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/impuesto_1" />
+        <TextView
+            android:id="@+id/cash1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/sueldo_liquido1" />
+        <TextView
+            android:id="@+id/bono1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/bono_1" />
+        <TextView
+            android:id="@+id/employe2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/empleado_2" />
+        <TextView
+            android:id="@+id/discount2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/impuesto_2" />
+        <TextView
+            android:id="@+id/cash2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/sueldo_liquido_2" />
+        <TextView
+            android:id="@+id/bono2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/bono_2" />
+        <TextView
+            android:id="@+id/employe3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/empleado_3" />
+        <TextView
+            android:id="@+id/discount3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/impuesto_3" />
+        <TextView
+            android:id="@+id/cash3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/sueldo_liquido_3" />
+        <TextView
+            android:id="@+id/bono3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/bono_3" />
+    </LinearLayout>
+
+
+</ScrollView>
